@@ -1,0 +1,45 @@
+﻿version: '3.8'
+
+services:
+  api:
+    build:
+      context: ..                 
+      dockerfile: NomNom.API/Dockerfile 
+    ports:
+      - "5300:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - db
+      - cache
+    networks:
+      - nomnom-network
+
+  db:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=MyStr0ng!Passw0rd
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql_data:/var/opt/mssql           
+      - ./init-sql:/docker-entrypoint-initdb.d  
+    networks:
+      - nomnom-network
+    
+
+  cache:
+    image: "redis:7-alpine"
+    ports:
+      - "6379:6379"
+    networks:
+      - nomnom-network
+
+volumes:
+  mssql_data:
+
+networks:
+  nomnom-network:
+    driver: bridge

@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 11vh;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  line-height: 1;
+}
+.navlogo {
+  height: 70px;
+}
+.center {
+  display: flex;
+  width: 98%;
+  height: 11vh;
+  margin: 0 auto;
+}
+.center ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.left {
+  width: 46.5%;
+  display: flex;
+}
+.right {
+  display: flex;
+  margin-left: auto;
+}
+/* .recipe {
+  color: #af212b;
+} */
+.leftmenu a {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 750;
+  white-space: nowrap;
+  color: black;
+  text-decoration: none;
+}
+.rightmenu a {
+  font-size: 8px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: black;
+  text-decoration: none;
+}
+.container img {
+  height: 3vh;
+  margin-left: 20px;
+}
+.add {
+  border: 1px solid #24af30;
+}
+.container {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.center button {
+  padding: 14px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  border-radius: 3px;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+.center button a {
+  color: black;
+  text-decoration: none;
+}
+.save {
+  margin-left: -10%;
+}
+.save img {
+  margin-right: 10px;
+}
+.enter {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: -8%;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  border-radius: 10px;
+  height: 23px;
+}
+.profile p {
+  margin-left: 10px;
+}
+.enter a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.container button {
+  border: none;
+}
+body.modal-open {
+  overflow: hidden;
+}
+.headermodalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: flex-start;
+  overflow-y: auto;
+  z-index: 9999;
+}
+.headermodal {
+  background: white;
+  width: 100%;
+  overflow-y: auto;
+}
+.search {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.searchlogo {
+  height: 4vh;
+}
+.stringsearch::before {
+  content: "";
+  margin-left: 1%;
+  width: 1px;
+  height: 40px;
+  margin-right: 1%;
+  background-color: rgb(184, 184, 184);
+}
+.stringsearch::after {
+  content: "";
+  position: absolute;
+  margin-left: 1%;
+  top: 69px;
+  height: 1px;
+  width: 85%;
+  background-color: rgb(184, 184, 184);
+}
+.stringsearch {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.stringsearch img {
+  height: 30px;
+}
+.stringsearch input {
+  height: 35px;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding-left: 5px;
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+}
+.closemodal {
+  border: none;
+}
+.closemodal img {
+  height: 42px;
+}
+.recipes {
+  width: 95%;
+  margin: 3% auto;
+  display: flex;
+}
+.recipescenter {
+  margin-left: 2%;
+}
+.leftrecipes {
+  width: 70px;
+}
+.noResults {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+.result {
+  margin-top: 10%;
+}
+.searchResult {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 6%;
+}
+.searchResult img {
+  height: 60px;
+  width: 60px;
+}
+.searchright {
+  margin-left: 4%;
+  font-family: Roboto, sans-serif;
+}
+.recipe-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-family: "Roboto";
+}
+.recipe-thumb {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.searchright p {
+  margin: 0;
+}
+.recipecat {
+  font-size: 10px;
+  color: #24af30;
+}
+.dropbtn img {
+  margin-right: 15px;
+}
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdowncontent {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 5%;
+}
+.dropdowncontent p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.getrecipes:hover {
+  background-color: #cacaca;
+}
+.logout:hover {
+  background-color: #cac6c6;
+}
+.show {
+  display: block;
+}
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+.modal {
+  background: white;
+  font-family: Roboto, sans-serif;
+  padding-bottom:20px
+}
+.dropbtn {
+  display: flex;
+  align-items: center;
+}
+
+.modalBackdrop1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.modal1 {
+  background: white;
+  font-family: Roboto, sans-serif;
+}
+.modal1 button {
+  border-radius: 4px;
+  border: 1px solid #284a5e;
+  background: #27485d;
+  box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 22px;
+  padding: 10px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+li{
+  cursor: pointer;
+}
+@media (max-width: 1192px) {
+  .leftmenu li a {
+    display: none;
+  }
+  .navlogo {
+    height: 30px !important;
+  }
+  .phonehidden {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .searchlogo {
+    display: none;
+  }
+  .stringsearch::before {
+    width: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .stringsearch input {
+    font-size: 10px;
+  }
+  .leftrecipes {
+    display: none;
+  }
+  .recipescenter p {
+    font-size: 11px;
+  }
+  .stringsearch::after {
+    top: 65px;
+  }
+}
+@media (max-width: 442px) {
+  .stringsearch::after {
+    top: 45px;
+  }
+}
+@media (max-width: 436px) {
+  .add {
+    padding: 11px !important;
+  }
+  .center button {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\bin\Debug\net8.0\NomNom.Core.deps.json
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\bin\Debug\net8.0\NomNom.Core.runtimeconfig.json
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\bin\Debug\net8.0\NomNom.Core.dll
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\bin\Debug\net8.0\NomNom.Core.pdb
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.csproj.AssemblyReference.cache
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.AssemblyInfoInputs.cache
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.AssemblyInfo.cs
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.csproj.CoreCompileInputs.cache
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.dll
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\refint\NomNom.Core.dll
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.pdb
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\NomNom.Core.genruntimeconfig.cache
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Core\obj\Debug\net8.0\ref\NomNom.Core.dll

@@ -1,0 +1,897 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "NomNom.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Firstname": {
+                    "type": "string"
+                  },
+                  "Secondname": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Login": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  },
+                  "Avatar": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Firstname": {
+                  "style": "form"
+                },
+                "Secondname": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Login": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "Avatar": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Login": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Login": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/userInfo": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Images/createStep": {
+      "post": {
+        "tags": [
+          "Images"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdRecipe": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "IdUser": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "NumberStep": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "StepFormula": {
+                    "type": "string"
+                  },
+                  "ImageUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ImagePreview": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "IdRecipe": {
+                  "style": "form"
+                },
+                "IdUser": {
+                  "style": "form"
+                },
+                "NumberStep": {
+                  "style": "form"
+                },
+                "StepFormula": {
+                  "style": "form"
+                },
+                "ImageUrl": {
+                  "style": "form"
+                },
+                "ImagePreview": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Images/getAllByIdRecipe/{id}": {
+      "get": {
+        "tags": [
+          "Images"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Images/deleteStepsByIdRecipe/{id}": {
+      "delete": {
+        "tags": [
+          "Images"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/createRecipe": {
+      "post": {
+        "tags": [
+          "Recipe"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Time": {
+                    "type": "string"
+                  },
+                  "Numberservings": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Resultimage": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Category": {
+                    "type": "string"
+                  },
+                  "Kitchen": {
+                    "type": "string"
+                  },
+                  "Recipehistory": {
+                    "type": "string"
+                  },
+                  "Ingridients": {
+                    "type": "string"
+                  },
+                  "Calories": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Proteins": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Fats": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Carbs": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipetip": {
+                    "type": "string"
+                  },
+                  "IdUser": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Time": {
+                  "style": "form"
+                },
+                "Numberservings": {
+                  "style": "form"
+                },
+                "Resultimage": {
+                  "style": "form"
+                },
+                "Category": {
+                  "style": "form"
+                },
+                "Kitchen": {
+                  "style": "form"
+                },
+                "Recipehistory": {
+                  "style": "form"
+                },
+                "Ingridients": {
+                  "style": "form"
+                },
+                "Calories": {
+                  "style": "form"
+                },
+                "Proteins": {
+                  "style": "form"
+                },
+                "Fats": {
+                  "style": "form"
+                },
+                "Carbs": {
+                  "style": "form"
+                },
+                "Recipetip": {
+                  "style": "form"
+                },
+                "IdUser": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/getAllRecipe": {
+      "get": {
+        "tags": [
+          "Recipe"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/getAllRecipeByIdUser/{id}": {
+      "get": {
+        "tags": [
+          "Recipe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/getRecipeById/{id}": {
+      "get": {
+        "tags": [
+          "Recipe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/getLastRecipeByIdUser/{id}": {
+      "get": {
+        "tags": [
+          "Recipe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/getCountRecipeByIdUser/{id}": {
+      "get": {
+        "tags": [
+          "Recipe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/updateRecipe/{id}": {
+      "put": {
+        "tags": [
+          "Recipe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Time": {
+                    "type": "string"
+                  },
+                  "Numberservings": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ResultImage": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Category": {
+                    "type": "string"
+                  },
+                  "Kitchen": {
+                    "type": "string"
+                  },
+                  "RecipeHistory": {
+                    "type": "string"
+                  },
+                  "Ingredients": {
+                    "type": "string"
+                  },
+                  "Calories": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Proteins": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Fats": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Carbs": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Likes": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Saves": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "RecipeTip": {
+                    "type": "string"
+                  },
+                  "IdUser": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Time": {
+                  "style": "form"
+                },
+                "Numberservings": {
+                  "style": "form"
+                },
+                "ResultImage": {
+                  "style": "form"
+                },
+                "Category": {
+                  "style": "form"
+                },
+                "Kitchen": {
+                  "style": "form"
+                },
+                "RecipeHistory": {
+                  "style": "form"
+                },
+                "Ingredients": {
+                  "style": "form"
+                },
+                "Calories": {
+                  "style": "form"
+                },
+                "Proteins": {
+                  "style": "form"
+                },
+                "Fats": {
+                  "style": "form"
+                },
+                "Carbs": {
+                  "style": "form"
+                },
+                "Likes": {
+                  "style": "form"
+                },
+                "Saves": {
+                  "style": "form"
+                },
+                "RecipeTip": {
+                  "style": "form"
+                },
+                "IdUser": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recipe/deleteRecipe/{id}": {
+      "delete": {
+        "tags": [
+          "Recipe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RecipeBook/addToBookAsync": {
+      "post": {
+        "tags": [
+          "RecipeBook"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdRecipe": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "IdUser": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "IdRecipe": {
+                  "style": "form"
+                },
+                "IdUser": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RecipeBook/getAllBook": {
+      "get": {
+        "tags": [
+          "RecipeBook"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RecipeBook/getRecipeBookByIdUser/{id}": {
+      "get": {
+        "tags": [
+          "RecipeBook"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RecipeBook/getAllRecipeBookByIdUser/{id}": {
+      "get": {
+        "tags": [
+          "RecipeBook"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RecipeBook/removeToBookAsync": {
+      "delete": {
+        "tags": [
+          "RecipeBook"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecipeBookRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecipeBookRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecipeBookRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/getAll": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/getById/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/updateUser/{id}": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "newFirstname",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "newSecondname",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "newEmail",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "newLogin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "newPassword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "avatar": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "avatar": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/deleteUser/{id}": {
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "RecipeBookRequest": {
+        "type": "object",
+        "properties": {
+          "idRecipe": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idUser": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
