@@ -227,6 +227,18 @@
         }
       }
     },
+    "/api/rabbit-test": {
+      "post": {
+        "tags": [
+          "RabbitTest"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Recipe/createRecipe": {
       "post": {
         "tags": [

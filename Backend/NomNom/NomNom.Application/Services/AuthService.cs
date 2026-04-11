@@ -15,9 +15,9 @@ namespace NomNom.Application.Services
     public class AuthService : IAuthService
     {
         private readonly IAuthRepository _authRepository;
-        private readonly CloudinaryService _cloudinaryService;
+        private readonly ICloudinaryService _cloudinaryService;
         private readonly IJwtService _jwtService;
-        public AuthService(CloudinaryService cloudinaryService, IAuthRepository authRepository, IJwtService jwtService)
+        public AuthService(ICloudinaryService cloudinaryService, IAuthRepository authRepository, IJwtService jwtService)
         {
             _authRepository = authRepository;
             _cloudinaryService = cloudinaryService;

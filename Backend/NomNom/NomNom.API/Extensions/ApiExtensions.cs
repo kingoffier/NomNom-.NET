@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using NomNom.Infrastructure;

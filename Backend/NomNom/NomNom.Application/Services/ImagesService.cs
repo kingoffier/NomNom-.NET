@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
+using NomNom.Core.Interfaces.Auth;
 using NomNom.Core.Interfaces.Images;
 using NomNom.Core.Interfaces.Recipe;
 using NomNom.Core.Interfaces.RecipeBook;
@@ -18,9 +19,9 @@ namespace NomNom.Application.Services
     public class ImagesService : IImagesService
     {
         private readonly IImagesRepository _imageRepository;
-        private readonly CloudinaryService _cloudinaryService;
+        private readonly ICloudinaryService _cloudinaryService;
         private readonly IDistributedCache _cache;
-        public ImagesService(CloudinaryService cloudinaryService, IImagesRepository imageRepository, IDistributedCache cache)
+        public ImagesService(ICloudinaryService cloudinaryService, IImagesRepository imageRepository, IDistributedCache cache)
         {
             _imageRepository = imageRepository;
             _cloudinaryService = cloudinaryService;

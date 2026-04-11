@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
 using NomNom.Core;
+using NomNom.Core.Interfaces.Auth;
 using NomNom.Core.Interfaces.Recipe;
 using NomNom.Core.Interfaces.User;
 using NomNom.Core.Models;
@@ -20,9 +21,9 @@ namespace NomNom.Application.Services
     public class RecipeService : IRecipeService
     {
         private readonly IRecipeRepository _recipeRepository;
-        private readonly CloudinaryService _cloudinaryService;
+        private readonly ICloudinaryService _cloudinaryService;
         private readonly IDistributedCache _cache;
-        public RecipeService(CloudinaryService cloudinaryService, IRecipeRepository recipeRepository, IDistributedCache cache)
+        public RecipeService(ICloudinaryService cloudinaryService, IRecipeRepository recipeRepository, IDistributedCache cache)
         {
             _recipeRepository = recipeRepository;
             _cloudinaryService = cloudinaryService;

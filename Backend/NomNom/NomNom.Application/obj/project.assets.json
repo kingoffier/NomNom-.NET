@@ -2003,6 +2003,23 @@
           }
         }
       },
+      "RabbitMQ.Client/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -2740,7 +2757,7 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
-      "System.Memory/4.5.4": {
+      "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -3457,7 +3474,7 @@
       "System.Threading.Channels/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
@@ -3521,6 +3538,7 @@
           "CloudinaryDotNet": "1.27.6",
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
+          "RabbitMQ.Client": "6.8.1",
           "StackExchange.Redis": "2.10.1",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -3540,6 +3558,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "NomNom.Core": "1.0.0",
+          "RabbitMQ.Client": "6.8.1",
           "StackExchange.Redis": "2.10.1"
         },
         "compile": {
@@ -6660,6 +6679,23 @@
         "pipelines.sockets.unofficial.nuspec"
       ]
     },
+    "RabbitMQ.Client/6.8.1": {
+      "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.8.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "sha512": "7VSGO0URRKoMEAq0Sc9cRz8mb6zbyx/BZDEWhgPdzzpmFhkam3fJ1DAGWFXBI4nGlma+uPKpfuMQP5LXRnOH5g==",
       "type": "package",
@@ -8206,10 +8242,10 @@
         "system.linq.nuspec"
       ]
     },
-    "System.Memory/4.5.4": {
-      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
-      "path": "system.memory/4.5.4",
+      "path": "system.memory/4.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8223,7 +8259,7 @@
         "lib/netstandard2.0/System.Memory.dll",
         "lib/netstandard2.0/System.Memory.xml",
         "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.4.5.5.nupkg.sha512",
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -10098,6 +10134,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.2",
       "NomNom.Core >= 1.0.0",
       "NomNom.Infrastructure >= 1.0.0",
+      "RabbitMQ.Client >= 6.8.1",
       "StackExchange.Redis >= 2.10.1"
     ]
   },
@@ -10108,11 +10145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj",
       "projectName": "NomNom.Application",
-      "projectPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj",
+      "projectPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\obj\\",
+      "outputPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10134,11 +10171,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj": {
-              "projectPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj"
+            "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj"
             },
-            "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj"
+            "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj"
             }
           }
         }
@@ -10153,7 +10190,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -10191,6 +10228,10 @@
             "target": "Package",
             "version": "[9.0.2, )"
           },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.8.1, )"
+          },
           "StackExchange.Redis": {
             "target": "Package",
             "version": "[2.10.1, )"
@@ -10212,7 +10253,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

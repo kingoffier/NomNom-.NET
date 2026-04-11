@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.Extensions.Caching.Distributed;
 using NomNom.Core;
+using NomNom.Core.Interfaces.Auth;
 using NomNom.Core.Interfaces.User;
 using NomNom.Core.Models;
 using System.Text.Json;
@@ -14,9 +15,9 @@ namespace NomNom.Application.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
-        private readonly CloudinaryService _cloudinaryService;
+        private readonly ICloudinaryService _cloudinaryService;
         private readonly IDistributedCache _cache;
-        public UserService(CloudinaryService cloudinaryService, IUserRepository userRepository, IDistributedCache cache)
+        public UserService(ICloudinaryService cloudinaryService, IUserRepository userRepository, IDistributedCache cache)
         {
             _userRepository = userRepository;
             _cloudinaryService = cloudinaryService;
@@ -36,7 +37,7 @@ namespace NomNom.Application.Services
         //{
         //    return await _userRepository.GetAllAsync();
         //}
-        public async Task<List<UserModel>> GetAllUsersCached()
+        public async Task<List<UserModel>?> GetAllUsersCached()
         {
             try
             {

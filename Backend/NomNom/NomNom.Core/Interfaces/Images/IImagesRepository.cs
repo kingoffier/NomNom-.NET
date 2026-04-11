@@ -10,7 +10,7 @@ namespace NomNom.Core.Interfaces.Images
     public interface IImagesRepository
     {
         Task CreateTaskImage(ImagesModel image);
-        Task<List<ImagesModel>> GetAllByIdRecipe(int idRecipe);
+        Task<List<ImagesModel>?> GetAllByIdRecipe(int idRecipe);
         Task DeleteAsync(List<ImagesModel> image);
     }
 }

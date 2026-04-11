@@ -1,18 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Artem\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyProjects\\NomNom\\Backend\\NomNom\\",
+  "WorkspaceRootPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\contracts\\images\\imagesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\contracts\\images\\imagesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.infrastructure\\repositories\\authtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|solutionrelative:nomnom.infrastructure\\repositories\\authtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.core\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|solutionrelative:nomnom.core\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.infrastructure\\data\\nomnomcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|solutionrelative:nomnom.infrastructure\\data\\nomnomcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.infrastructure\\configurations\\imagesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|solutionrelative:nomnom.infrastructure\\configurations\\imagesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA5E632-B485-4B62-8448-D1AC6989B3D5}|NomNom.Application.Tests\\NomNom.Application.Tests.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.application.tests\\services\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA5E632-B485-4B62-8448-D1AC6989B3D5}|NomNom.Application.Tests\\NomNom.Application.Tests.csproj|solutionrelative:nomnom.application.tests\\services\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA5E632-B485-4B62-8448-D1AC6989B3D5}|NomNom.Application.Tests\\NomNom.Application.Tests.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.application.tests\\services\\imagesservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA5E632-B485-4B62-8448-D1AC6989B3D5}|NomNom.Application.Tests\\NomNom.Application.Tests.csproj|solutionrelative:nomnom.application.tests\\services\\imagesservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\contracts\\auth\\regrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\contracts\\auth\\regrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.api\\contracts\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E594F7-4197-4FE8-A7A0-71CE681C216C}|NomNom.API\\NomNom.API.csproj|solutionrelative:nomnom.api\\contracts\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A4A8B07-CEE9-455A-BAB9-9A939766BE94}|NomNom.Application\\NomNom.Application.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A4A8B07-CEE9-455A-BAB9-9A939766BE94}|NomNom.Application\\NomNom.Application.csproj|solutionrelative:nomnom.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A4A8B07-CEE9-455A-BAB9-9A939766BE94}|NomNom.Application\\NomNom.Application.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A4A8B07-CEE9-455A-BAB9-9A939766BE94}|NomNom.Application\\NomNom.Application.csproj|solutionrelative:nomnom.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|solutionrelative:nomnom.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.core\\models\\recipebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|solutionrelative:nomnom.core\\models\\recipebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.core\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4627A92E-AA8A-4C8B-A4EA-5851E96AF1CA}|NomNom.Core\\NomNom.Core.csproj|solutionrelative:nomnom.core\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.infrastructure\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232FB8EB-CBFB-471C-AFC1-0C0FC822F990}|NomNom.Infrastructure\\NomNom.Infrastructure.csproj|solutionrelative:nomnom.infrastructure\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A4A8B07-CEE9-455A-BAB9-9A939766BE94}|NomNom.Application\\NomNom.Application.csproj|c:\\users\\artem\\desktop\\myprojects\\nomnom\\backend\\nomnom\\nomnom.application\\services\\imagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A4A8B07-CEE9-455A-BAB9-9A939766BE94}|NomNom.Application\\NomNom.Application.csproj|solutionrelative:nomnom.application\\services\\imagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,42 +142,256 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Artem\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Program.cs",
-              "RelativeDocumentMoniker": "NomNom.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Artem\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Program.cs",
-              "RelativeToolTip": "NomNom.API\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAAfAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "NomNom.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T18:17:54.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T11:41:20.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Docker.json",
-              "DocumentMoniker": "C:\\Users\\Artem\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\appsettings.Docker.json",
-              "RelativeDocumentMoniker": "NomNom.API\\appsettings.Docker.json",
-              "ToolTip": "C:\\Users\\Artem\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\appsettings.Docker.json",
-              "RelativeToolTip": "NomNom.API\\appsettings.Docker.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-06T18:13:21.904Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "AuthtRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Repositories\\AuthtRepository.cs",
+              "RelativeDocumentMoniker": "NomNom.Infrastructure\\Repositories\\AuthtRepository.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Repositories\\AuthtRepository.cs",
+              "RelativeToolTip": "NomNom.Infrastructure\\Repositories\\AuthtRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:54:24.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application.Tests\\Services\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "NomNom.Application.Tests\\Services\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application.Tests\\Services\\AuthServiceTests.cs",
+              "RelativeToolTip": "NomNom.Application.Tests\\Services\\AuthServiceTests.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T14:38:45.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImagesServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application.Tests\\Services\\ImagesServiceTests.cs",
+              "RelativeDocumentMoniker": "NomNom.Application.Tests\\Services\\ImagesServiceTests.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application.Tests\\Services\\ImagesServiceTests.cs",
+              "RelativeToolTip": "NomNom.Application.Tests\\Services\\ImagesServiceTests.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T11:52:44.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NomNomContext.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Data\\NomNomContext.cs",
+              "RelativeDocumentMoniker": "NomNom.Infrastructure\\Data\\NomNomContext.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Data\\NomNomContext.cs",
+              "RelativeToolTip": "NomNom.Infrastructure\\Data\\NomNomContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:50:03.965Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\Artem\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\docker-compose.yml",
-              "RelativeDocumentMoniker": "NomNom.API\\docker-compose.yml",
-              "ToolTip": "C:\\Users\\Artem\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\docker-compose.yml",
-              "RelativeToolTip": "NomNom.API\\docker-compose.yml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-12-06T18:13:04.92Z",
+              "Title": "ImagesRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Contracts\\Images\\ImagesRequest.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Contracts\\Images\\ImagesRequest.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Contracts\\Images\\ImagesRequest.cs",
+              "RelativeToolTip": "NomNom.API\\Contracts\\Images\\ImagesRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:09:51.133Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Images.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\Images.cs",
+              "RelativeDocumentMoniker": "NomNom.Core\\Models\\Images.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\Images.cs",
+              "RelativeToolTip": "NomNom.Core\\Models\\Images.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:53:11.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Program.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Program.cs",
+              "RelativeToolTip": "NomNom.API\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAD4v3YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T09:02:46.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "NomNom.API\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:41:28.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "NomNom.API\\Controllers\\ImagesController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:10:00.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RecipeBook.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\RecipeBook.cs",
+              "RelativeDocumentMoniker": "NomNom.Core\\Models\\RecipeBook.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\RecipeBook.cs",
+              "RelativeToolTip": "NomNom.Core\\Models\\RecipeBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:53:29.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NomNom.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:07:43.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImagesConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Configurations\\ImagesConfiguration.cs",
+              "RelativeDocumentMoniker": "NomNom.Infrastructure\\Configurations\\ImagesConfiguration.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Configurations\\ImagesConfiguration.cs",
+              "RelativeToolTip": "NomNom.Infrastructure\\Configurations\\ImagesConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:43:59.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Contracts\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Contracts\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Contracts\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "NomNom.API\\Contracts\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:07:34.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "NomNom.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "NomNom.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:08:22.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Contracts\\Auth\\RegRequest.cs",
+              "RelativeDocumentMoniker": "NomNom.API\\Contracts\\Auth\\RegRequest.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\Contracts\\Auth\\RegRequest.cs",
+              "RelativeToolTip": "NomNom.API\\Contracts\\Auth\\RegRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:09:48.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "NomNom.Core\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\Recipe.cs",
+              "RelativeToolTip": "NomNom.Core\\Models\\Recipe.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:53:16.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "NomNom.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "NomNom.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:44:09.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "NomNom.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "NomNom.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:36:02.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "NomNom.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\Models\\User.cs",
+              "RelativeToolTip": "NomNom.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:53:34.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ImagesService.cs",
+              "DocumentMoniker": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\Services\\ImagesService.cs",
+              "RelativeDocumentMoniker": "NomNom.Application\\Services\\ImagesService.cs",
+              "ToolTip": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\Services\\ImagesService.cs",
+              "RelativeToolTip": "NomNom.Application\\Services\\ImagesService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T11:53:13.861Z"
             }
           ]
         },

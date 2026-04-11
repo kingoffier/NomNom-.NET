@@ -2045,6 +2045,23 @@
           }
         }
       },
+      "RabbitMQ.Client/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -2775,7 +2792,7 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
-      "System.Memory/4.5.4": {
+      "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -3492,7 +3509,7 @@
       "System.Threading.Channels/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
@@ -3549,6 +3566,90 @@
           }
         }
       },
+      "xunit/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.analyzers": "1.18.0",
+          "xunit.assert": "2.9.3",
+          "xunit.core": "[2.9.3]"
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.analyzers/1.18.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.9.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]",
+          "xunit.extensibility.execution": "[2.9.3]"
+        },
+        "build": {
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
+        }
+      },
+      "xunit.extensibility.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.extensibility.execution/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NomNom.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3560,6 +3661,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "NomNom.Core": "1.0.0",
           "NomNom.Infrastructure": "1.0.0",
+          "RabbitMQ.Client": "6.8.1",
           "StackExchange.Redis": "2.10.1"
         },
         "compile": {
@@ -3576,6 +3678,7 @@
           "CloudinaryDotNet": "1.27.6",
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
+          "RabbitMQ.Client": "6.8.1",
           "StackExchange.Redis": "2.10.1",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -3595,6 +3698,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "NomNom.Core": "1.0.0",
+          "RabbitMQ.Client": "6.8.1",
           "StackExchange.Redis": "2.10.1"
         },
         "compile": {
@@ -6835,6 +6939,23 @@
         "pipelines.sockets.unofficial.nuspec"
       ]
     },
+    "RabbitMQ.Client/6.8.1": {
+      "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.8.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "sha512": "7VSGO0URRKoMEAq0Sc9cRz8mb6zbyx/BZDEWhgPdzzpmFhkam3fJ1DAGWFXBI4nGlma+uPKpfuMQP5LXRnOH5g==",
       "type": "package",
@@ -8377,10 +8498,10 @@
         "system.linq.nuspec"
       ]
     },
-    "System.Memory/4.5.4": {
-      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
-      "path": "system.memory/4.5.4",
+      "path": "system.memory/4.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8394,7 +8515,7 @@
         "lib/netstandard2.0/System.Memory.dll",
         "lib/netstandard2.0/System.Memory.xml",
         "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.4.5.5.nupkg.sha512",
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -10247,6 +10368,125 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "xunit/2.9.3": {
+      "sha512": "TlXQBinK35LpOPKHAqbLY4xlEen9TBafjs0V5KnA4wZsoQLQJiirCR4CbIXvOH8NzkW4YeJKP5P/Bnrodm0h9Q==",
+      "type": "package",
+      "path": "xunit/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "xunit.2.9.3.nupkg.sha512",
+        "xunit.nuspec"
+      ]
+    },
+    "xunit.abstractions/2.0.3": {
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "type": "package",
+      "path": "xunit.abstractions/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/xunit.abstractions.dll",
+        "lib/net35/xunit.abstractions.xml",
+        "lib/netstandard1.0/xunit.abstractions.dll",
+        "lib/netstandard1.0/xunit.abstractions.xml",
+        "lib/netstandard2.0/xunit.abstractions.dll",
+        "lib/netstandard2.0/xunit.abstractions.xml",
+        "xunit.abstractions.2.0.3.nupkg.sha512",
+        "xunit.abstractions.nuspec"
+      ]
+    },
+    "xunit.analyzers/1.18.0": {
+      "sha512": "OtFMHN8yqIcYP9wcVIgJrq01AfTxijjAqVDy/WeQVSyrDC1RzBWeQPztL49DN2syXRah8TYnfvk035s7L95EZQ==",
+      "type": "package",
+      "path": "xunit.analyzers/1.18.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "analyzers/dotnet/cs/xunit.analyzers.dll",
+        "analyzers/dotnet/cs/xunit.analyzers.fixes.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "xunit.analyzers.1.18.0.nupkg.sha512",
+        "xunit.analyzers.nuspec"
+      ]
+    },
+    "xunit.assert/2.9.3": {
+      "sha512": "/Kq28fCE7MjOV42YLVRAJzRF0WmEqsmflm0cfpMjGtzQ2lR5mYVj1/i0Y8uDAOLczkL3/jArrwehfMD0YogMAA==",
+      "type": "package",
+      "path": "xunit.assert/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "lib/net6.0/xunit.assert.dll",
+        "lib/net6.0/xunit.assert.xml",
+        "lib/netstandard1.1/xunit.assert.dll",
+        "lib/netstandard1.1/xunit.assert.xml",
+        "xunit.assert.2.9.3.nupkg.sha512",
+        "xunit.assert.nuspec"
+      ]
+    },
+    "xunit.core/2.9.3": {
+      "sha512": "BiAEvqGvyme19wE0wTKdADH+NloYqikiU0mcnmiNyXaF9HyHmE6sr/3DC5vnBkgsWaE6yPyWszKSPSApWdRVeQ==",
+      "type": "package",
+      "path": "xunit.core/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "build/xunit.core.props",
+        "build/xunit.core.targets",
+        "buildMultiTargeting/xunit.core.props",
+        "buildMultiTargeting/xunit.core.targets",
+        "xunit.core.2.9.3.nupkg.sha512",
+        "xunit.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.core/2.9.3": {
+      "sha512": "kf3si0YTn2a8J8eZNb+zFpwfoyvIrQ7ivNk5ZYA5yuYk1bEtMe4DxJ2CF/qsRgmEnDr7MnW1mxylBaHTZ4qErA==",
+      "type": "package",
+      "path": "xunit.extensibility.core/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "lib/net452/xunit.core.dll",
+        "lib/net452/xunit.core.dll.tdnet",
+        "lib/net452/xunit.core.xml",
+        "lib/net452/xunit.runner.tdnet.dll",
+        "lib/net452/xunit.runner.utility.net452.dll",
+        "lib/netstandard1.1/xunit.core.dll",
+        "lib/netstandard1.1/xunit.core.xml",
+        "xunit.extensibility.core.2.9.3.nupkg.sha512",
+        "xunit.extensibility.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.execution/2.9.3": {
+      "sha512": "yMb6vMESlSrE3Wfj7V6cjQ3S4TXdXpRqYeNEI3zsX31uTsGMJjEw6oD5F5u1cHnMptjhEECnmZSsPxB6ChZHDQ==",
+      "type": "package",
+      "path": "xunit.extensibility.execution/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "lib/net452/xunit.execution.desktop.dll",
+        "lib/net452/xunit.execution.desktop.xml",
+        "lib/netstandard1.1/xunit.execution.dotnet.dll",
+        "lib/netstandard1.1/xunit.execution.dotnet.xml",
+        "xunit.extensibility.execution.2.9.3.nupkg.sha512",
+        "xunit.extensibility.execution.nuspec"
+      ]
+    },
     "NomNom.Application/1.0.0": {
       "type": "project",
       "path": "../NomNom.Application/NomNom.Application.csproj",
@@ -10276,8 +10516,10 @@
       "NomNom.Application >= 1.0.0",
       "NomNom.Core >= 1.0.0",
       "NomNom.Infrastructure >= 1.0.0",
+      "RabbitMQ.Client >= 6.8.1",
       "StackExchange.Redis >= 2.10.1",
-      "Swashbuckle.AspNetCore >= 6.6.2"
+      "Swashbuckle.AspNetCore >= 6.6.2",
+      "xunit >= 2.9.3"
     ]
   },
   "packageFolders": {
@@ -10287,11 +10529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\NomNom.API.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\NomNom.API.csproj",
       "projectName": "NomNom.API",
-      "projectPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\NomNom.API.csproj",
+      "projectPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\NomNom.API.csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\obj\\",
+      "outputPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10313,14 +10555,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj": {
-              "projectPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj"
+            "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Application\\NomNom.Application.csproj"
             },
-            "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj": {
-              "projectPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj"
+            "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Core\\NomNom.Core.csproj"
             },
-            "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Artem\\OneDrive\\Рабочий стол\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj"
+            "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Desktop\\MyProjects\\NomNom\\Backend\\NomNom\\NomNom.Infrastructure\\NomNom.Infrastructure.csproj"
             }
           }
         }
@@ -10335,7 +10577,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -10377,6 +10619,10 @@
             "target": "Package",
             "version": "[1.22.1, )"
           },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.8.1, )"
+          },
           "StackExchange.Redis": {
             "target": "Package",
             "version": "[2.10.1, )"
@@ -10384,6 +10630,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.6.2, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.9.3, )"
           }
         },
         "imports": [
@@ -10405,7 +10655,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

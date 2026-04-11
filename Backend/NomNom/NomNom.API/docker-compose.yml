@@ -10,9 +10,14 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:8080
+      - RabbitMq__Host=rabbitmq
+      - RabbitMq__Port=5672
+      - RabbitMq__User=nomnom
+      - RabbitMq__Password=nomnom
     depends_on:
       - db
       - cache
+      - rabbitmq
     networks:
       - nomnom-network
 
@@ -37,9 +42,25 @@ services:
     networks:
       - nomnom-network
 
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: nomnom-rabbitmq
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672" 
+    environment:
+      RABBITMQ_DEFAULT_USER: nomnom
+      RABBITMQ_DEFAULT_PASS: nomnom
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - nomnom-network
+
 volumes:
   mssql_data:
-
+  rabbitmq_data:
+  
 networks:
   nomnom-network:
     driver: bridge

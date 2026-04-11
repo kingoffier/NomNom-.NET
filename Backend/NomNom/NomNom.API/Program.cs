@@ -72,7 +72,8 @@ builder.Services.AddScoped<IAuthRepository, AuthtRepository>();
 builder.Services.AddScoped<IRecipeBookRepository, RecipeBookRepository>();
 builder.Services.AddScoped<IRecipeBookService, RecipeBookService>();
 builder.Services.AddScoped<IJwtService, JwtService>();
-builder.Services.AddSingleton<CloudinaryService>();
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
+
 
 
 builder.Services.AddCors(options =>

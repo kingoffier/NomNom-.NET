@@ -145,6 +145,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NomNom.API.Controllers.RabbitTestController",
+    "Method": "Publish",
+    "RelativePath": "api/rabbit-test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NomNom.API.Controllers.RecipeController",
     "Method": "CreateUserAsync",
     "RelativePath": "api/Recipe/createRecipe",

@@ -15,3 +15,22 @@ C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom
 C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.pdb
 C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.genruntimeconfig.cache
 C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\ref\NomNom.Infrastructure.dll
+C:\Users\Artem\OneDrive\Рабочий стол\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.sourcelink.json
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\bin\Debug\net8.0\NomNom.Infrastructure.deps.json
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\bin\Debug\net8.0\NomNom.Infrastructure.runtimeconfig.json
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\bin\Debug\net8.0\NomNom.Infrastructure.dll
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\bin\Debug\net8.0\NomNom.Infrastructure.pdb
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\bin\Debug\net8.0\NomNom.Core.dll
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\bin\Debug\net8.0\NomNom.Core.pdb
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.AssemblyInfo.cs
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.sourcelink.json
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.I.E8CCCFDD.Up2Date
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.dll
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\refint\NomNom.Infrastructure.dll
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.pdb
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\NomNom.Infrastructure.genruntimeconfig.cache
+C:\Users\Artem\Desktop\MyProjects\NomNom\Backend\NomNom\NomNom.Infrastructure\obj\Debug\net8.0\ref\NomNom.Infrastructure.dll

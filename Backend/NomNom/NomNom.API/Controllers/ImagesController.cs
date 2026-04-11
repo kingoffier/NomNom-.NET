@@ -25,7 +25,7 @@ namespace NomNom.API.Controllers
             return Ok();
         }
         [HttpGet("getAllByIdRecipe/{id:int}")]
-        public async Task<IActionResult> GetAllStepsByIdRecipeCached([FromRoute] int id)
+        public async Task<IActionResult> GetAllStepsByIdRecipeCached(int id)
         {
             var recipes = await _imageService.GetAllByIdRecipeCached(id);
             return Ok(recipes);
